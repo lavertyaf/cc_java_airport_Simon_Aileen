@@ -34,7 +34,6 @@ public class Plane {
         passengerList.remove(passenger);
     }
 
-
     public boolean checkPassengerHasTicket(Passenger passenger){
         if (passenger.getPassengersTicketDestination() == destination){
             return true;

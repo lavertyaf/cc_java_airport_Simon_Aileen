@@ -14,14 +14,24 @@ public class Airport {
         this.tourists = new ArrayList<>();
     }
 
-    public String getName(){
+    public String getName() {
         return this.name;
     }
 
-    public int getNumberOfPlanesInFleet(){
+    public int getNumberOfPlanesInFleet() {
         return this.fleet.size();
     }
 
+    public void planeTakesOff(Plane plane) {
+        fleet.remove(plane);
+    }
 
+    public void planeLands(Plane plane) {
+        if (fleet.size() < maxPlanes) {
+            fleet.add(plane);
+        } else {
+            System.out.println("The airport is full, land somewhere else!");
+        }
 
+    }
 }
