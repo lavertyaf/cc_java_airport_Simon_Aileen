@@ -45,5 +45,16 @@ public class PassengerTest {
         assertEquals(1, passenger1.howManyTicketsInWallet());
     }
 
+    @Test
+    public void getPassengerTicket(){
+        passenger1.buyTicket(Destination.MAGALUF,ticketDesk);
+        assertEquals(ticket1, passenger1.getPassengerTicket());
+    }
+
+    @Test
+    public void getPassengersTicketDestination(){
+        passenger1.buyTicket(Destination.IBIZA, ticketDesk);
+        assertEquals("Ibiza", passenger1.getPassengersTicketDestination().getDestination());
+    }
 
 }

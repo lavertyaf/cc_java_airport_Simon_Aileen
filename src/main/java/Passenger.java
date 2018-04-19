@@ -5,6 +5,7 @@ public class Passenger {
     private String name;
     private ArrayList<Ticket> travelWallet;
 
+
     public Passenger(String name){
         this.name = name;
         this.travelWallet = new ArrayList<>();
@@ -22,8 +23,12 @@ public class Passenger {
         this.travelWallet.add(ticketDesk.sellATicket(destination));
     }
 
-    public Destination getPassengersTicketDestination(Ticket ticket){
-        return Destination.values;
+    public Ticket getPassengerTicket(){
+        return travelWallet.get(0);
+    }
+
+    public Destination getPassengersTicketDestination(){
+        return this.getPassengerTicket().whatIsDestination();
     }
 
 
