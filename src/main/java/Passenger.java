@@ -19,6 +19,10 @@ public class Passenger {
         return this.travelWallet.size();
     }
 
+    public void addATicket(Ticket ticket){
+        this.travelWallet.add(ticket);
+    }
+
     public void buyTicket(Destination destination, TicketDesk ticketDesk){
         this.travelWallet.add(ticketDesk.sellATicket(destination));
     }

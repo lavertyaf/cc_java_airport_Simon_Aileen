@@ -12,6 +12,9 @@ public class PlaneTest {
     Passenger passenger2;
     Passenger passenger3;
     Passenger passenger4;
+    TicketDesk ticketDesk;
+    Ticket ticket1;
+    Ticket ticket2;
 
     @Before
     public void before(){
@@ -20,6 +23,9 @@ public class PlaneTest {
         passenger2 = new Passenger("Saddam");
         passenger3 = new Passenger("Osama");
         passenger4 = new Passenger("Stalin");
+        ticket1 = new Ticket(Destination.TENERIFE);
+        ticket2 = new Ticket(Destination.IBIZA);
+
     }
 
     @Test
@@ -58,5 +64,17 @@ public class PlaneTest {
     @Test
     public void getPassengerList() {
         assertEquals(0, plane.getPassengerList().size());
+    }
+
+    @Test
+    public void checkPassengerHasTicketForThisPlane__True(){
+        passenger1.addATicket(ticket1);
+        assertEquals(true, plane.checkPassengerHasTicket(passenger1));
+    }
+
+    @Test
+    public void checkPassengerHasTicketForThisPlane__False(){
+        passenger1.addATicket(ticket2);
+        assertEquals(false, plane.checkPassengerHasTicket(passenger1));
     }
 }

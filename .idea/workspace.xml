@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b98ce04b-92ae-4dda-9cd0-1765d185fc5c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Airport.java" afterPath="$PROJECT_DIR$/src/main/java/Airport.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Passenger.java" afterPath="$PROJECT_DIR$/src/main/java/Passenger.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Plane.java" afterPath="$PROJECT_DIR$/src/main/java/Plane.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PassengerTest.java" afterPath="$PROJECT_DIR$/src/test/java/PassengerTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlaneTest.java" afterPath="$PROJECT_DIR$/src/test/java/PlaneTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -30,8 +30,8 @@
           <file leaf-file-name="Airport.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Airport.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+                <state relative-caret-position="358">
+                  <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
                   <folding>
                     <element signature="e#425#426#0" expanded="true" />
                     <element signature="e#457#458#0" expanded="true" />
@@ -73,8 +73,8 @@
           <file leaf-file-name="Plane.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Plane.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="298">
-                  <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+                <state relative-caret-position="313">
+                  <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
                   <folding>
                     <element signature="e#387#388#0" expanded="true" />
                     <element signature="e#423#424#0" expanded="true" />
@@ -107,17 +107,19 @@
           <file leaf-file-name="Passenger.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Passenger.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="412">
-                  <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+                <state relative-caret-position="238">
+                  <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
                   <folding>
                     <element signature="e#271#272#0" expanded="true" />
                     <element signature="e#303#304#0" expanded="true" />
                     <element signature="e#345#346#0" expanded="true" />
                     <element signature="e#392#393#0" expanded="true" />
-                    <element signature="e#583#584#0" expanded="true" />
-                    <element signature="e#625#626#0" expanded="true" />
-                    <element signature="e#683#684#0" expanded="true" />
-                    <element signature="e#751#752#0" expanded="true" />
+                    <element signature="e#436#437#0" expanded="true" />
+                    <element signature="e#481#482#0" expanded="true" />
+                    <element signature="e#672#673#0" expanded="true" />
+                    <element signature="e#714#715#0" expanded="true" />
+                    <element signature="e#772#773#0" expanded="true" />
+                    <element signature="e#840#841#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -130,7 +132,7 @@
           <file leaf-file-name="TicketDeskTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/TicketDeskTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
+                <state relative-caret-position="73">
                   <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -153,16 +155,35 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PassengerTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="PassengerTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/PassengerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+                <state relative-caret-position="388">
+                  <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
                   <folding>
+                    <element signature="imports" expanded="true" />
                     <element signature="e#718#719#0" expanded="true" />
                     <element signature="e#780#781#0" expanded="true" />
                     <element signature="e#830#831#0" expanded="true" />
                     <element signature="e#898#899#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PlaneTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/PlaneTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="358">
+                  <caret line="77" column="27" lean-forward="false" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1444#1445#0" expanded="true" />
+                    <element signature="e#1496#1497#0" expanded="true" />
+                    <element signature="e#1542#1543#0" expanded="true" />
+                    <element signature="e#1616#1617#0" expanded="true" />
+                    <element signature="e#1664#1665#0" expanded="true" />
+                    <element signature="e#1728#1729#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -480,22 +501,22 @@
         <option value="$PROJECT_DIR$/src/main/java/Destination.java" />
         <option value="$PROJECT_DIR$/src/test/java/FlightTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Flight.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Airport.java" />
         <option value="$PROJECT_DIR$/src/main/java/Ticket.java" />
         <option value="$PROJECT_DIR$/src/test/java/TicketDeskTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/TicketDesk.java" />
         <option value="$PROJECT_DIR$/src/test/java/AirportTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TicketTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PlaneTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PassengerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Airport.java" />
         <option value="$PROJECT_DIR$/src/main/java/Plane.java" />
         <option value="$PROJECT_DIR$/src/main/java/Passenger.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PassengerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PlaneTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-68" />
-    <option name="y" value="36" />
+    <option name="x" value="15" />
+    <option name="y" value="41" />
     <option name="width" value="1400" />
     <option name="height" value="877" />
   </component>
@@ -749,21 +770,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_airport_test - 2018.04.17 at 18h 15m 16s.xml">
-      <configuration name="All in airport_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_airport_test - 2018.04.17 at 18h 16m 35s.xml">
-      <configuration name="All in airport_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_airport_test - 2018.04.19 at 16h 47m 12s.xml">
-      <configuration name="All in airport_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_airport_test - 2018.04.19 at 17h 14m 44s.xml">
-      <configuration name="All in airport_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_airport_test - 2018.04.19 at 17h 15m 19s.xml">
-      <configuration name="All in airport_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_airport_test - 2018.04.19 at 17h 18m 54s.xml">
       <configuration name="All in airport_test" configurationId="JUnit" />
     </history-entry>
@@ -779,9 +785,24 @@
     <history-entry file="All_in_airport_test - 2018.04.19 at 17h 28m 10s.xml">
       <configuration name="All in airport_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_airport_test - 2018.04.19 at 17h 54m 19s.xml">
+      <configuration name="All in airport_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_airport_test - 2018.04.19 at 17h 55m 37s.xml">
+      <configuration name="All in airport_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_airport_test - 2018.04.19 at 17h 57m 18s.xml">
+      <configuration name="All in airport_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_airport_test - 2018.04.19 at 18h 00m 58s.xml">
+      <configuration name="All in airport_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_airport_test - 2018.04.19 at 18h 02m 01s.xml">
+      <configuration name="All in airport_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-68" y="36" width="1400" height="877" extended-state="0" />
+    <frame x="15" y="41" width="1400" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -908,10 +929,12 @@
             <element signature="e#303#304#0" expanded="true" />
             <element signature="e#345#346#0" expanded="true" />
             <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -959,12 +982,12 @@
           <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -986,6 +1009,7 @@
         <state relative-caret-position="420">
           <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#718#719#0" expanded="true" />
             <element signature="e#780#781#0" expanded="true" />
             <element signature="e#830#831#0" expanded="true" />
@@ -1057,10 +1081,12 @@
             <element signature="e#303#304#0" expanded="true" />
             <element signature="e#345#346#0" expanded="true" />
             <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1108,12 +1134,12 @@
           <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1135,6 +1161,7 @@
         <state relative-caret-position="420">
           <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#718#719#0" expanded="true" />
             <element signature="e#780#781#0" expanded="true" />
             <element signature="e#830#831#0" expanded="true" />
@@ -1206,10 +1233,12 @@
             <element signature="e#303#304#0" expanded="true" />
             <element signature="e#345#346#0" expanded="true" />
             <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1257,12 +1286,12 @@
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1284,6 +1313,7 @@
         <state relative-caret-position="195">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#718#719#0" expanded="true" />
             <element signature="e#780#781#0" expanded="true" />
             <element signature="e#830#831#0" expanded="true" />
@@ -1303,16 +1333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="327" column="0" lean-forward="false" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TicketDeskTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1341,35 +1361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PlaneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TicketDesk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -1392,36 +1383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Passenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Airport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AirportTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -1436,10 +1397,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PassengerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Airport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TicketDesk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TicketDeskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Passenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PlaneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="77" column="27" lean-forward="false" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Plane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="313">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
           <folding>
             <element signature="e#387#388#0" expanded="true" />
             <element signature="e#423#424#0" expanded="true" />
@@ -1449,19 +1495,6 @@
             <element signature="e#590#591#0" expanded="true" />
             <element signature="e#805#806#0" expanded="true" />
             <element signature="e#852#853#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PassengerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding>
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
           </folding>
         </state>
       </provider>

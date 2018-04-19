@@ -57,4 +57,6 @@ public class PassengerTest {
         assertEquals("Ibiza", passenger1.getPassengersTicketDestination().getDestination());
     }
 
+
+
 }
