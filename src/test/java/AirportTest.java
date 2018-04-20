@@ -1,3 +1,6 @@
+import Airport.Airport;
+import Airport.Operations.Destination;
+import Airport.Operations.Plane;
 import org.junit.Before;
 import org.junit.Test;
 

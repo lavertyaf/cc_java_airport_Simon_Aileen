@@ -1,3 +1,7 @@
+package Airport.Operations;
+
+import Airport.Airport;
+
 public enum Destination {
 
     TENERIFE("Tenerife"),

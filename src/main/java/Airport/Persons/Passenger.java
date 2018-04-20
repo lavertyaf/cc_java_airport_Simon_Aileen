@@ -1,4 +1,9 @@
+package Airport.Persons;
+
 import java.util.ArrayList;
+import Airport.Operations.Destination;
+import Airport.Operations.Ticket;
+import Airport.Operations.TicketDesk;
 
 public class Passenger {
 

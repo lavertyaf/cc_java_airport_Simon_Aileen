@@ -1,3 +1,8 @@
+package Airport;
+
+import Airport.Operations.Plane;
+import Airport.Persons.Passenger;
+
 import java.util.ArrayList;
 
 public class Airport {

@@ -1,7 +1,10 @@
+import Airport.Operations.Destination;
+import Airport.Operations.Plane;
+import Airport.Operations.Ticket;
+import Airport.Operations.TicketDesk;
+import Airport.Persons.Passenger;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 
