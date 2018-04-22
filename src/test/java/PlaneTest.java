@@ -28,12 +28,12 @@ public class PlaneTest {
         plane2 = new Plane(4, Destination.IBIZA);
         plane3 = new Plane(3, Destination.MAGALUF);
         plane4 = new Plane(5, Destination.BENIDORM);
-        passenger1 = new Passenger("Jean Jaques");
-        passenger2 = new Passenger("Saddam");
-        passenger3 = new Passenger("Osama");
-        passenger4 = new Passenger("Stalin");
-        ticket1 = new Ticket(Destination.TENERIFE);
-        ticket2 = new Ticket(Destination.IBIZA);
+        passenger1 = new Passenger(2,"Jean Jaques");
+        passenger2 = new Passenger(4,"Saddam");
+        passenger3 = new Passenger(7,"Osama");
+        passenger4 = new Passenger(1,"Stalin");
+        ticket1 = new Ticket(Destination.TENERIFE, 85.00);
+        ticket2 = new Ticket(Destination.IBIZA, 90.00);
 
     }
 

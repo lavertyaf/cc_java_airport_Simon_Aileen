@@ -18,13 +18,13 @@ public class TicketDeskTest {
 
     @Before
     public void before(){
-    ticket1 = new Ticket(Destination.IBIZA);
-    ticket2 = new Ticket(Destination.TENERIFE);
+    ticket1 = new Ticket(Destination.IBIZA, 100.00);
+    ticket2 = new Ticket(Destination.TENERIFE, 75.00);
     ArrayList<Ticket> tickets = new ArrayList<>();
     tickets.add(ticket1);
     tickets.add(ticket2);
     ticketDesk = new TicketDesk(tickets);
-    passenger1 = new Passenger("Paul");
+    passenger1 = new Passenger(2, "Paul");
     }
 
     @Test

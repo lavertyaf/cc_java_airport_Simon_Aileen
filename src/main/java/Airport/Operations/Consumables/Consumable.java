@@ -4,7 +4,7 @@ public abstract class Consumable {
 
     private String name;
     private int drunkpoints;
-    private double cost;
+    protected double cost;
     private boolean ageResticted;
 
     public Consumable(String name, int drunkpoints, double cost, boolean ageResticted){

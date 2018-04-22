@@ -1,8 +1,14 @@
 package Airport.Operations.Consumables;
 
-public class Sandwich extends Consumable{
+import Airport.Operations.Interfaces.IBuyable;
 
-    public Sandwich(String name, int drunkPoints, int cost, boolean ageRestricted){
+public class Sandwich extends Consumable implements IBuyable{
+
+    public Sandwich(String name, int drunkPoints, double cost, boolean ageRestricted){
         super(name, drunkPoints, cost, ageRestricted);
+    }
+
+    public double getCost() {
+        return this.cost;
     }
 }
